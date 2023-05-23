@@ -66,3 +66,8 @@ console.log(statement);
 ```
 jest
 ```
+
+# Statement print:
+
+![alt text](files/statement.png)
+
