@@ -1,0 +1,17 @@
+{
+  "name": "bank-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0",
+    "jest-when": "^3.5.2",
+    "mongoose": "^7.2.0"
+  }
+}
