@@ -143,10 +143,10 @@ describe("AccountService", () => {
     const accountService = new AccountService(MockAccountRepository);
  
     expect(accountService.printStatement(123)).toEqual(
-      "date || credit || debit || balance\n" +
-      "14/01/2023 || 0 || 500 || 2500\n" +
-      "13/01/2023 || 2000 || 0 || 3000\n" +
-      "10/01/2023 || 1000 || 0 || 1000\n"
+      "date       || credit || debit || balance\n" +
+      "14/01/2023 || 0      || 500   || 2500\n" +
+      "13/01/2023 || 2000   || 0     || 3000\n" +
+      "10/01/2023 || 1000   || 0     || 1000\n"
     )
   })   
 });
