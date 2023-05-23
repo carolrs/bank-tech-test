@@ -34,11 +34,11 @@ class AccountService {
 
 
   printStatement(accountId) {
-    let output = "date || credit || debit || balance\n";
+    let output = "date".padEnd(10," ") + " || credit || debit || balance\n";
     const account = this.accountRepository.findById(accountId);
     account.transactions.reverse().forEach((transaction) => {
 
-      output += `${transaction.formateDate()} || ${transaction.credit} || ${transaction.debit} || ${transaction.amount}\n`;
+      output += `${transaction.formateDate()} || ${transaction.credit}`.padEnd(21, " ") + `|| ${transaction.debit}`.padEnd(9, " ") + `|| ${transaction.amount}\n`;
     })
     return output;
   }

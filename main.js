@@ -6,10 +6,10 @@ const account = service.create();
 
 console.log(service.printStatement(account.id));
 
+console.log('------------------')
 console.log('Depositing 100...');
-
 service.deposit(account.id, 100, new Date());
-
+console.log('------------------')
 console.log(service.printStatement(account.id));
 
 console.log('------------------');
