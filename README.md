@@ -71,3 +71,7 @@ jest
 
 ![alt text](files/statement.png)
 
+
+# Coverage: 
+![alt text](files/coverage.png)
+
